@@ -396,7 +396,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('UPDATES', url='https://t.me/CAT_OF_tg'),
-            InlineKeyboardButton('SORCE', callback_data='source')
+            InlineKeyboardButton('SOURCE', callback_data='source')
             ],[
             InlineKeyboardButton('HOME', callback_data='start'),
             InlineKeyboardButton('CLOSE', callback_data='close_data')
@@ -548,9 +548,9 @@ async def auto_filter(client, message):
             )
         imdb=await get_poster(search)
         if imdb and imdb.get('poster'):
-            await message.reply_photo(photo=imdb.get('poster'), caption=f"<b>Query: {search}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_photo(photo=imdb.get('poster'), caption=f"<b>Query: {search}</b> \n‌‌‌‌IMDb Data:\n\n ➥ TITLE: <a href={imdb['url']}>{imdb.get('title')}</a>\n ➥ GENRES: {imdb.get('genres')}\n ➥ YEAR: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n ➥ RATING: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10", reply_markup=InlineKeyboardMarkup(btn))
         elif imdb:
-            await message.reply_text(f"<b>Query: {search}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(f"<b>Query: {search}</b> \n‌‌‌‌IMDb Data:\n\n ➥ TITLE: <a href={imdb['url']}>{imdb.get('title')}</a>\n ➥ GENRES: {imdb.get('genres')}\n ➥ YEAR: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n ➥ RATING: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10", reply_markup=InlineKeyboardMarkup(btn))
         else:
-            await message.reply_text(f"<b>HERE IS WHAT I FOUND IN MY DB FOR YOUR QUERY {search} ✨ </b>", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(f"<b>HERE IS WHAT I FOUND IN MY DB FOR YOUR QUERY {search} ‌‌‌‌</b>", reply_markup=InlineKeyboardMarkup(btn))
         
