@@ -1,20 +1,20 @@
 class script(object):
     START_TXT = """HELLO {},
-MY NAME IS <a href='https://t.me/mx_filter_bot'>𝗥𝗔𝗦𝗛𝗠𝗜𝗞𝗔 𝗠𝗔𝗗𝗔𝗡𝗡𝗔</a>, I CAN POVIDE MOVIES IN YOUR GOUP,  JUST ADD ME TO YOUR GROUP AND MAKE ME ADMIN IN THE CHAT  😍"""
+MY NAME IS <a href='https://t.me/mx_filter_bot'>𝗥𝗔𝗦𝗛𝗠𝗜𝗞𝗔 𝗠𝗔𝗗𝗔𝗡𝗡𝗔</a>, I CAN POVIDE MOVIES IN YOUR GOUP,  
+     JUST ADD ME TO YOUR GROUP AND MAKE ME ADMIN IN THE CHAT"""
     HELP_TXT = """HEY {}
 HERE IS THE HELP FOR MY COMMANDS."""
-    ABOUT_TXT = """
-    ➤  𝗠𝗬 𝗡𝗔𝗠𝗘 : 𝗥𝗔𝗦𝗛𝗠𝗜𝗞𝗔 𝗠𝗔𝗗𝗔𝗡𝗡𝗔
+    ABOUT_TXT = """➤  𝗠𝗬 𝗡𝗔𝗠𝗘 : 𝗥𝗔𝗦𝗛𝗠𝗜𝗞𝗔 𝗠𝗔𝗗𝗔𝗡𝗡𝗔
     
-    ➤  𝗖𝗥𝗘𝗔𝗧𝗢𝗥 : <a href='https://t.me/CAT_OF_TG'>𝗣𝗢𝗜𝗦𝗢𝗡</a>       
+➤  𝗖𝗥𝗘𝗔𝗧𝗢𝗥 : <a href='https://t.me/CAT_OF_TG'>𝗣𝗢𝗜𝗦𝗢𝗡</a>       
     
-    ➤  𝗟𝗜𝗕𝗥𝗔𝗥𝗬 : 𝗣𝗬𝗥𝗢𝗚𝗥𝗔𝗠             
+➤  𝗟𝗜𝗕𝗥𝗔𝗥𝗬 : 𝗣𝗬𝗥𝗢𝗚𝗥𝗔𝗠             
     
-    ➤  𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘 : 𝗣𝗬𝗧𝗛𝗢𝗡 𝟯     
+➤  𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘 : 𝗣𝗬𝗧𝗛𝗢𝗡 𝟯     
     
-    ➤  𝗦𝗘𝗥𝗩𝗘𝗥 : 𝗛𝗘𝗥𝗢𝗞𝗨     
+➤  𝗦𝗘𝗥𝗩𝗘𝗥 : 𝗛𝗘𝗥𝗢𝗞𝗨     
     
-    ➤  𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 : 𝗠𝗢𝗡𝗚𝗢 𝗗𝗕"""
+➤  𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 : 𝗠𝗢𝗡𝗚𝗢 𝗗𝗕"""
     
     SOURCE_TXT = """ @CAT_OF_TG """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
@@ -91,8 +91,7 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """
-➥ ᴛᴏᴛᴀʟ ғɪʟᴇs : <code>{}</code>
+    STATUS_TXT = """➥ ᴛᴏᴛᴀʟ ғɪʟᴇs : <code>{}</code>
 
 ➥ ᴛᴏᴛᴀʟ ᴜsᴇʀs : <code>{}</code>
 
