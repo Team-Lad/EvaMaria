@@ -18,7 +18,7 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [[[
+        buttons = [[
             InlineKeyboardButton('MOVIE GROUP', url='https://t.me/movie_X_zone' )
             ],[
             InlineKeyboardButton('SEARCH', switch_inline_query_current_chat='')
@@ -27,7 +27,7 @@ async def start(client, message):
             InlineKeyboardButton('HELP', callback_data='help')
             ],[
             InlineKeyboardButton('ADD ME TO YOUR GROUP', url=f'http://t.me/mx_filte_bot?startgroup=true')
-            ]]]
+            ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
