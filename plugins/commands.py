@@ -69,6 +69,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ABOUT ME', callback_data='about'),
             InlineKeyboardButton('HELP', callback_data='help')
+            ],[
             InlineKeyboardButton('ADD ME TO YOUR GROUP', url=f'http://t.me/mx_flter_bot?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
