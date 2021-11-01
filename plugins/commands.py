@@ -27,7 +27,7 @@ async def start(client, message):
             InlineKeyboardButton('HELP', callback_data='help')
             ],[
             InlineKeyboardButton('ADD ME TO YOUR GROUP', url=f'http://t.me/mx_filte_bot?startgroup=true')
-        ]]
+            ]]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
