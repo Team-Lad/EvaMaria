@@ -1,8 +1,6 @@
 class script(object):
     START_TXT = """HELLO {},
-MY NAME IS <a href='https://t.me/mx_filter_bot'>𝗥𝗔𝗦𝗛𝗠𝗜𝗞𝗔 𝗠𝗔𝗡𝗗𝗔𝗡𝗡𝗔</a>, I M A FILTER BOT AND ALSO AUTO FILTER BOT I CAN PROVIDE MOVIES IN YOUR GROUP, JUST ADD ME TO YOUR GROUP AND MAKE ME ADMIN IN THE CHAT AND SEE THE MAGIC ❣️
-
-<a href='https://t.me/CAT_OF_TG'>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ ᴘᴏɪsᴏɴ</a>
+ʜᴇʏ ʙʀᴏ ɪ ᴍ ʀᴀsʜᴍɪᴋᴀ ᴀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ, ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ : ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀs ᴀᴅᴍɪɴ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ 💕
 """
     HELP_TXT = """HEY {}
 HERE IS THE HELP FOR MY COMMANDS."""
