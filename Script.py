@@ -2,7 +2,7 @@ class script(object):
     START_TXT = """HELLO {},
 ʜᴇʏ ʙʀᴏ ɪ ᴍ ʀᴀsʜᴍɪᴋᴀ ᴀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ, ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ : ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀs ᴀᴅᴍɪɴ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ 💕
 """
-    HELP_TXT = """HEY {}
+    HELP_TXT = """
 HERE IS THE HELP FOR MY COMMANDS."""
     ABOUT_TXT = """➤  𝗠𝗬 𝗡𝗔𝗠𝗘 : 𝗥𝗔𝗦𝗛𝗠𝗜𝗞𝗔 𝗠𝗔𝗗𝗔𝗡𝗡𝗔
     
@@ -27,7 +27,7 @@ HERE IS THE HELP FOR MY COMMANDS."""
 3. alert buttons have a limit of 64 characters.
 
 <b>Commands and Usage:</b>
-• /filter - <code>add a filter in chat</code>
+• /add - <code>add a filter in chat</code>
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
