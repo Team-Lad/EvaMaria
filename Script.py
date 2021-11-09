@@ -5,7 +5,7 @@ class script(object):
  𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴 :
      𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙷𝙰𝚃 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈✨
 ➖️➖️➖️➖️➖️➖️➖️➖️
-<a href='https://t.me/CAT_BOI'>𝙼𝙰𝙸𝙽𝚃𝙰𝙸𝙽𝙴𝙳 𝙱𝚈 𝙿𝙾𝙸𝚂𝙾𝙽 🎀</a>
+<a href='https://t.me/CAT_of_tg'>𝙼𝙰𝙸𝙽𝚃𝙰𝙸𝙽𝙴𝙳 𝙱𝚈 𝙿𝙾𝙸𝚂𝙾𝙽 🎀</a>
 """
     HELP_TXT = """
 HERE IS THE HELP FOR MY COMMANDS."""
