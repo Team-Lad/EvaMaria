@@ -18,10 +18,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+                InlineKeyboardButton('MOVIE', url='https://t.me/movie_x_zone')
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('HELP', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -37,14 +37,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🚀 ADD ME TO YOUR GROUP 🚀', url='http://t.me/mx_filter_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/EvaMariaUpdates')
+            InlineKeyboardButton('SEARCH 👀', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
-        ]]
+            InlineKeyboardButton('HELP 🛠', callback_data='help').
+            InlineKeyboardButton('ABOUT ME 🧸', callback_data='about')
+            [
+            InlineKeyboardButton('🎭 MOVIE GROUP 🎭', url='https://t.me/movie_x_zone')
+        ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -62,13 +63,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "PLEASE JOIN UPDATES CHANNEL TO GET FILE", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("TRY AGAIN", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
@@ -78,14 +79,14 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('MOVIE GROUP', url='https://t.me/movie_X_zone' )
+            InlineKeyboardButton('🎭 MOVIE GROUP 🎭', url='https://t.me/movie_X_zone' )
             ],[
-            InlineKeyboardButton('SEARCH', switch_inline_query_current_chat='')
+            InlineKeyboardButton('SEARCH 👀', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ABOUT ME', callback_data='about'),
-            InlineKeyboardButton('HELP', callback_data='help')
+            InlineKeyboardButton('ABOUT ME 🧸', callback_data='about'),
+            InlineKeyboardButton('HELP 🛠', callback_data='help')
             ],[
-            InlineKeyboardButton('ADD ME TO YOUR GROUP', url=f'http://t.me/mx_filter_bot?startgroup=true')
+            InlineKeyboardButton('🚀 ADD ME TO YOUR GROUP 🚀', url=f'http://t.me/mx_filter_bot?startgroup=true')
             ]]
         markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
