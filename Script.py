@@ -1,9 +1,10 @@
 class script(object):
     START_TXT = """
-ʜᴇʏ ʙʀᴏ ɪ ᴍ ʀᴀsʜᴍɪᴋᴀ ᴀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ, 
+𝙷𝙴𝚈 𝙱𝚁𝙾 𝙸 𝙼 𝚁𝙰𝚂𝙷𝙼𝙸𝙺𝙰 𝙰 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃💸
+    🧸𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙸𝙽 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙷𝙰𝚃 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈✨
 
-ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ : ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀs ᴀᴅᴍɪɴ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ
 
+<a href='https://t.me/CAT_BOI'>𝙼𝙰𝙸𝙽𝚃𝙰𝙸𝙽𝙴𝙳 𝙱𝚈 𝙿𝙾𝙸𝚂𝙾𝙽 🎀</a>
 """
     HELP_TXT = """
 HERE IS THE HELP FOR MY COMMANDS."""
@@ -17,7 +18,9 @@ HERE IS THE HELP FOR MY COMMANDS."""
     
 ➤  𝗦𝗘𝗥𝗩𝗘𝗥 : 𝗛𝗘𝗥𝗢𝗞𝗨     
     
-➤  𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 : 𝗠𝗢𝗡𝗚𝗢 𝗗𝗕"""
+➤  𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 : 𝗠𝗢𝗡𝗚𝗢 𝗗𝗕
+
+• @MOVIE_X_ZONE"""
     
     SOURCE_TXT = """ @CAT_OF_TG """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
