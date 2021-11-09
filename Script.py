@@ -1,6 +1,9 @@
 class script(object):
     START_TXT = """
-ʜᴇʏ ʙʀᴏ ɪ ᴍ ʀᴀsʜᴍɪᴋᴀ ᴀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ, ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ : ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀs ᴀᴅᴍɪɴ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ 💕
+ʜᴇʏ ʙʀᴏ ɪ ᴍ ʀᴀsʜᴍɪᴋᴀ ᴀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ, 
+
+ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ : ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀs ᴀᴅᴍɪɴ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ
+
 """
     HELP_TXT = """
 HERE IS THE HELP FOR MY COMMANDS."""
@@ -93,19 +96,15 @@ This module only works for my admins
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """➥ ᴛᴏᴛᴀʟ ғɪʟᴇs : <code>{}</code>
 
-➥ ᴛᴏᴛᴀʟ ᴜsᴇʀs : <code>{}</code>
-
-➥ ᴛᴏᴛᴀʟ ᴄʜᴀᴛs : <code>{}</code>
-
-➥ ғʀᴇᴇ sᴛᴏʀᴀɢᴇ : <code>{}</code> 𝙼𝚒𝙱
-
-➥ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ : <code>{}</code> 𝙼𝚒𝙱"""
+➥ ᴛᴏᴛᴀʟ ᴜsᴇʀs : <code>{}</code>"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
+eeeeeeeeeeee
 """
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
+eeeeee
 """
