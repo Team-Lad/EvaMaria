@@ -45,7 +45,8 @@ async def start(client, message):
             InlineKeyboardButton('ABOUT ME 🧸', callback_data='about')
             [
             InlineKeyboardButton('🎭 MOVIE GROUP 🎭', url='https://t.me/movie_x_zone')
-            ]]]
+            ]]
+        ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
