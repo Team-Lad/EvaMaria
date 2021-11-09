@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """
-🧸𝙷𝙴𝚈 𝙱𝚁𝙾 𝙸 𝙼 𝚁𝙰𝚂𝙷𝙼𝙸𝙺𝙰 𝙰 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃💸
+🧸𝙷𝙴𝚈 𝙱𝚁𝙾 𝙸 𝙼 𝚃𝚉𝚄𝚈𝚄 𝙰 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃💸
 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿
  𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴 :
      𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽 𝙸𝙽 𝚃𝙷𝙴 𝙲𝙷𝙰𝚃 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈✨
@@ -9,7 +9,7 @@ class script(object):
 """
     HELP_TXT = """
 HERE IS THE HELP FOR MY COMMANDS."""
-    ABOUT_TXT = """➤  𝗠𝗬 𝗡𝗔𝗠𝗘 : 𝗥𝗔𝗦𝗛𝗠𝗜𝗞𝗔 𝗠𝗔𝗗𝗔𝗡𝗡𝗔
+    ABOUT_TXT = """➤  𝗠𝗬 𝗡𝗔𝗠𝗘 : **𝕋ℤ𝕌𝕐𝕌**
     
 ➤  𝗖𝗥𝗘𝗔𝗧𝗢𝗥 : <a href='https://t.me/CAT_OF_TG'>𝗣𝗢𝗜𝗦𝗢𝗡</a>       
     
@@ -29,7 +29,7 @@ HERE IS THE HELP FOR MY COMMANDS."""
 - Filter is the feature were users can set automated replies for a particular keyword and rashmika will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. Rashmika should have admin privillage.
+1. tzuyu should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -40,11 +40,11 @@ HERE IS THE HELP FOR MY COMMANDS."""
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Rashmika Supports both url and alert inline buttons.
+- Tzuyu Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Rashmika supports buttons with any telegram media type.
+2. Tzuyu supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
