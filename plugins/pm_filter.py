@@ -416,13 +416,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('ADD ME TO YOUR GROUP', url='http://t.me/mx_filter_bot?startgroup=true')
+            InlineKeyboardButton('➕️ADD ME TO YOUR GROUP➕️', url='http://t.me/mx_filter_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('SEARCH', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('UPDATES', url='https://t.me/HN_DVD_UPDATES')
+            InlineKeyboardButton('🔎SEARCH', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('UPDATES🧸', url='https://t.me/HN_DVD_UPDATES')
             ],[
-            InlineKeyboardButton('HELP', callback_data='help'),
-            InlineKeyboardButton('ABOUT ME', callback_data='about')
+            InlineKeyboardButton('⚙️HELP', callback_data='help'),
+            InlineKeyboardButton('ABOUT ME🚀', callback_data='about')
         ]] 
 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -433,11 +433,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('**FILTER**', callback_data='manuelfilter')
+            InlineKeyboardButton('ғɪʟᴛᴇʀ', callback_data='manuelfilter')
             ],[
-            InlineKeyboardButton('**MISC**', callback_data='extra')
+            InlineKeyboardButton('ᴍɪsᴄ', callback_data='extra')
             ],[
-            InlineKeyboardButton('**HOME**', callback_data='start')
+            InlineKeyboardButton('«', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
