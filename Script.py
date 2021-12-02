@@ -9,19 +9,20 @@ class script(object):
 """
     HELP_TXT = """
 HERE IS THE HELP FOR MY COMMANDS."""
-    ABOUT_TXT = """➤  𝗠𝗬 𝗡𝗔𝗠𝗘 : **𝕋ℤ𝕌𝕐𝕌**
+    ABOUT_TXT = """➥ ɴᴀᴍᴇ : <a href='https://t.me/addstickers/sp750c68b5c46efdbac504a91b0cbd2613_by_stckrRobot'>ᴛᴢᴜʏᴜ</a>
     
-➤  𝗖𝗥𝗘𝗔𝗧𝗢𝗥 : <a href='https://t.me/CAT_OF_TG'>𝗣𝗢𝗜𝗦𝗢𝗡</a>       
-    
-➤  𝗟𝗜𝗕𝗥𝗔𝗥𝗬 : 𝗣𝗬𝗥𝗢𝗚𝗥𝗔𝗠             
-    
-➤  𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘 : 𝗣𝗬𝗧𝗛𝗢𝗡 𝟯     
-    
-➤  𝗦𝗘𝗥𝗩𝗘𝗥 : 𝗛𝗘𝗥𝗢𝗞𝗨     
-    
-➤  𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 : 𝗠𝗢𝗡𝗚𝗢 𝗗𝗕
+➥ ᴄʀᴇᴅɪᴛs : <a href='tg://settings'>ʏᴏᴜ</a>
 
-• @MOVIE_X_ZONE"""
+➥ ᴇᴅɪᴛɪɴɢ : <a href='http://t.me/cat_of_tg'>ᴄᴀᴛ ʙᴏɪ</a>
+
+➥ ᴏᴡɴᴇʀ  : <a href='http://t.me/cat_bio'>ᴘᴏɪᴤᴏɴ</a>
+
+➥ ʟᴀɴɢᴜᴀɢᴇ : <a href='docs.python.org'>ᴘʏᴛʜᴏɴ</a>
+
+➥ ʟɪʙʀᴀʀʏ :  <a href='docs.pyrogram.org'>ᴘʏʀᴏɢʀᴀᴍ</a>
+
+➥ ᴤᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='http://t.me/kids_heaven_chat'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+"""
     
     SOURCE_TXT = """ @CAT_OF_TG """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
