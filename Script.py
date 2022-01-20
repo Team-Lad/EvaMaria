@@ -106,7 +106,9 @@ This module only works for my admins
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """➥ ᴛᴏᴛᴀʟ ғɪʟᴇs : <code>{}</code>
 
-➥ ᴛᴏᴛᴀʟ ᴜsᴇʀs : <code>{}</code>"""
+➥ ᴛᴏᴛᴀʟ ᴜsᴇʀs : <code>{}</code>
+{} 😅
+{} 😅"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
