@@ -419,7 +419,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕️ADD ME TO YOUR GROUP➕️', url='http://t.me/mx_filter_bot?startgroup=true')
             ],[
             InlineKeyboardButton('🔎SEARCH', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('UPDATES🧸', url='https://t.me/HN_DVD_UPDATES')
+            InlineKeyboardButton('MOVIES🧸', url='https://t.me/Movie_X_Zone')
             ],[
             InlineKeyboardButton('⚙️HELP', callback_data='help'),
             InlineKeyboardButton('ABOUT ME🚀', callback_data='about')
